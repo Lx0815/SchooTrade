@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Server:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7f0ceb97-bda6-4e95-87e5-8bde37ebd973" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/test/java/com/D/school_trade/common/utils/JWTUtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/java/com/D/school_trade/common/utils/JWTUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/com/D/school_trade/common/utils/JWTUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/java/com/D/school_trade/config/SpringMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/com/D/school_trade/config/SpringMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/java/com/D/school_trade/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/com/D/school_trade/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/java/com/D/school_trade/web/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/com/D/school_trade/web/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/java/com/D/school_trade/web/interceptor/TokenInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/com/D/school_trade/web/interceptor/TokenInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/java/com/D/school_trade/web/response_obj/ResponseCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/com/D/school_trade/web/response_obj/ResponseCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/java/com/D/school_trade/web/response_obj/ResponseObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/com/D/school_trade/web/response_obj/ResponseObj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/java/com/D/school_trade/web/response_obj/ResponseResultData.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/com/D/school_trade/web/response_obj/ResponseResultData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_pro/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vue_pro/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_pro/mock/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_pro/mock/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_pro/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue_pro/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_pro/src/api/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_pro/src/api/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_pro/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_pro/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_pro/src/permission.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_pro/src/permission.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_pro/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_pro/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_pro/src/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_pro/src/settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_pro/src/store/getters.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_pro/src/store/getters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_pro/src/store/modules/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_pro/src/store/modules/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_pro/src/store/modules/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_pro/src/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue_pro/src/styles/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_pro/src/utils/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_pro/src/utils/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_pro/src/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_pro/src/utils/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_pro/src/utils/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_pro/src/utils/validate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_pro/src/views/dashboard/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_pro/src/views/dashboard/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_pro/src/views/login/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_pro/src/views/login/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_pro/tests/unit/components/Breadcrumb.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_pro/tests/unit/components/Breadcrumb.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_pro/tests/unit/components/Hamburger.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_pro/tests/unit/components/Hamburger.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_pro/tests/unit/components/SvgIcon.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_pro/tests/unit/components/SvgIcon.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_pro/tests/unit/utils/formatTime.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_pro/tests/unit/utils/formatTime.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_pro/tests/unit/utils/param2Obj.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_pro/tests/unit/utils/param2Obj.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_pro/tests/unit/utils/parseTime.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_pro/tests/unit/utils/parseTime.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_pro/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_pro/vue.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EditorConfigPreviewManager">
+    <editorConfig file="$PROJECT_DIR$/vue_pro/.editorconfig" previewFile="$PROJECT_DIR$/vue_pro/src/store/modules/user.js" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Vue Single File Component" />
+        <option value="Interface" />
+        <option value="Mapper" />
+        <option value="Enum" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="JsBowerSettings">
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.6.3-bin/apache-maven-3.6.3" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2BurGSRYSCZrPXFMS2cTfzebknH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "B:/新建文件夹/尚硅谷前端学科全套教程（总126.90GB）/2.尚硅谷前端学科--高级技术/尚硅谷Vue技术全家桶（天禹老师主讲）/代码/vue_test",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "工件",
+    "project.structure.proportion": "0.15625",
+    "project.structure.side.proportion": "0.145977",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "spring.configuration.checksum": "9aa1b03934893d7134a660af4204f2a9",
+    "ts.external.directory.path": "D:\\IntelliJ IDEA 2022.1.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.D.school_trade.dao" />
+      <recent name="com.D.school_trade.service" />
+      <recent name="com.D.school_trade.pojo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\SSMProject\SchooTrade\Server\src\main\resources" />
+      <recent name="D:\Project\SSMProject\SchooTrade\webapp\src\assets" />
+      <recent name="D:\Project\SSMProject\SchooTrade\webapp\src\main\webapp\static\js" />
+      <recent name="D:\Project\SSMProject\SchooTrade\webapp\src\main\webapp\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\SSMProject\SchooTrade\vue_pro" />
+      <recent name="D:\Project\SSMProject\SchooTrade\webapp" />
+      <recent name="D:\Project\SSMProject\SchooTrade\webapp\src\views" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.D.school_trade.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat 服务器.Server">
+    <configuration name="JWTUtilsTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.D.school_trade.common.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.D.school_trade.common.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.D.school_trade.common.utils.JWTUtilsTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.getUserInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.D.school_trade.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.D.school_trade.service" />
+      <option name="MAIN_CLASS_NAME" value="com.D.school_trade.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="getUserInfo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.D.school_trade.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.D.school_trade.service" />
+      <option name="MAIN_CLASS_NAME" value="com.D.school_trade.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="login" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.78" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:9528/" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <deployment>
+        <artifact name="Server:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/SchoolTrade" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="f530707b-fb07-4eb4-8f02-8b56a67acb91" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="11388" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Server:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/vue_pro/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/vue_pro/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="run" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.JWTUtilsTest.test01" />
+      <item itemvalue="JUnit.UserServiceTest.getUserInfo" />
+      <item itemvalue="JUnit.UserServiceTest.login" />
+      <item itemvalue="npm.dev" />
+      <item itemvalue="npm.run" />
+      <item itemvalue="Tomcat 服务器.Server" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.JWTUtilsTest.test01" />
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.run" />
+        <item itemvalue="JUnit.UserServiceTest.login" />
+        <item itemvalue="JUnit.UserServiceTest.getUserInfo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="7f0ceb97-bda6-4e95-87e5-8bde37ebd973" name="变更" comment="" />
+      <created>1657766715303</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657766715303</updated>
+      <workItem from="1657766716700" duration="4472000" />
+      <workItem from="1657773641780" duration="718000" />
+      <workItem from="1657774380546" duration="11456000" />
+      <workItem from="1657873366168" duration="19293000" />
+      <workItem from="1657924147147" duration="863000" />
+      <workItem from="1657925155805" duration="14881000" />
+      <workItem from="1657959142315" duration="1674000" />
+      <workItem from="1657973259527" duration="157000" />
+      <workItem from="1657973505873" duration="180000" />
+      <workItem from="1657980389847" duration="38324000" />
+      <workItem from="1658111700004" duration="663000" />
+      <workItem from="1658551016164" duration="1109000" />
+      <workItem from="1658555952770" duration="5592000" />
+    </task>
+    <task id="LOCAL-00001" summary="项目初始化，完成模块分层以及依赖引入">
+      <created>1657874141085</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657874141085</updated>
+    </task>
+    <task id="LOCAL-00002" summary="初始化前端框架">
+      <created>1657900456098</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657900456098</updated>
+    </task>
+    <task id="LOCAL-00003" summary="项目初始化&#10;解决前后端跨域请求问题">
+      <created>1657980926019</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657980926019</updated>
+    </task>
+    <task id="LOCAL-00004" summary="服务器新增token校验，配合前端判断用户是否登录。数据为模拟数据">
+      <created>1657991444567</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657991444567</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/dev" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/webapp" />
+      <path value="$PROJECT_DIR$/webapp/vue-admin-template" />
+      <path value="$PROJECT_DIR$/vue_pro/vue-admin-template" />
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="项目初始化，完成模块分层以及依赖引入" />
+    <MESSAGE value="初始化前端框架" />
+    <MESSAGE value="项目初始化&#10;解决前后端跨域请求问题" />
+    <MESSAGE value="服务器新增token校验，配合前端判断用户是否登录。数据为模拟数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="服务器新增token校验，配合前端判断用户是否登录。数据为模拟数据" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../apache-maven-3.6.3-bin/apache-maven-3.6.3/mvn_resp/org/springframework/spring-webmvc/5.2.22.RELEASE/spring-webmvc-5.2.22.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java</url>
+          <line>1037</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Server/src/main/java/com/D/school_trade/web/controller/UserController.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.apache.catalina.connector.Request" memberName="coyoteRequest" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

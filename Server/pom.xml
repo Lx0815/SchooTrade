@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.D.SchoolTrade</groupId>
+    <artifactId>Server</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>war</packaging>
+
+    <name>Server</name>
+
+    <properties>
+        <!--
+            如果没有使用多环境配置时，
+            可以在自定义属性中，定义平时修改比较频繁的配置项，
+            这样可以在父模块的 pom 文件中进行统一配置信息管理，
+        -->
+
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+
+        <!--
+            依赖版本管理
+        -->
+        <!-- MySQL -->
+        <dependency.mysql-connector-java.version>8.0.27</dependency.mysql-connector-java.version>
+        <!-- Spring 相关-->
+        <dependency.allSpring.version>5.2.22.RELEASE</dependency.allSpring.version>
+        <!-- jackson -->
+        <dependency.jackson.version>2.13.3</dependency.jackson.version>
+        <!-- MyBatis 整合 Spring -->
+        <dependency.mybatis-spring.version>2.0.7</dependency.mybatis-spring.version>
+        <!-- aspectjweaver SpringAOP 相关-->
+        <dependency.aspectjweaver.version>1.9.9.1</dependency.aspectjweaver.version>
+        <!-- druid -->
+        <dependency.druid.version>1.2.11</dependency.druid.version>
+        <!-- junit -->
+        <dependency.junit.version>4.13.2</dependency.junit.version>
+        <!-- Servlet -->
+        <dependency.javax.servlet-api.version>4.0.1</dependency.javax.servlet-api.version>
+        <!-- JSP 标签库 jstl -->
+        <dependency.jstl-api.version>1.2</dependency.jstl-api.version>
+        <!-- 未知标签库 taglibs -->
+        <dependency.taglibs.version>1.2.5</dependency.taglibs.version>
+        <!-- 文件上传 -->
+        <dependency.commons-fileupload.version>1.4</dependency.commons-fileupload.version>
+        <!-- log4j -->
+        <dependency.log4j.version>2.18.0</dependency.log4j.version>
+        <!-- POI 操作 excel 表格-->
+        <dependency.poi.version>3.17</dependency.poi.version>
+        <!-- MyBatis -->
+        <dependency.mybatis.version>3.5.9</dependency.mybatis.version>
+        <!-- Logback -->
+        <dependency.logback.version>1.2.3</dependency.logback.version>
+        <!-- kaptcha -->
+        <dependency.kaptcha.version>2.3.2</dependency.kaptcha.version>
+        <!-- Token -->
+        <dependency.jwt.version>3.10.0</dependency.jwt.version>
+    </properties>
+
+    <dependencies>
+
+        <!-- Token -->
+        <dependency>
+            <groupId>com.auth0</groupId>
+            <artifactId>java-jwt</artifactId>
+            <version>${dependency.jwt.version}</version>
+        </dependency>
+
+        <!-- MySQL -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${dependency.mysql-connector-java.version}</version>
+        </dependency>
+
+        <!-- MyBatis -->
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>${dependency.mybatis.version}</version>
+        </dependency>
+
+        <!-- Spring JDBC -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>${dependency.allSpring.version}</version>
+        </dependency>
+
+        <!-- Spring Test -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>${dependency.allSpring.version}</version>
+        </dependency>
+
+        <!-- Spring MVC -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>${dependency.allSpring.version}</version>
+        </dependency>
+
+        <!-- Spring oxm -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-oxm</artifactId>
+            <version>${dependency.allSpring.version}</version>
+        </dependency>
+
+        <!-- SpringMVC 自动解析 JSON 数据需要的 -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${dependency.jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <version>${dependency.jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>${dependency.jackson.version}</version>
+        </dependency>
+        <!-- 处理 Java8 新增的 的数据类型，如 LocalDateTime 等 -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.datatype</groupId>
+            <artifactId>jackson-datatype-jsr310</artifactId>
+            <version>${dependency.jackson.version}</version>
+        </dependency>
+
+        <!-- Spring MyBatis -->
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis-spring</artifactId>
+            <version>${dependency.mybatis-spring.version}</version>
+        </dependency>
+
+        <!-- Spring AOP -->
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>${dependency.aspectjweaver.version}</version>
+        </dependency>
+
+        <!-- Druid -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>${dependency.druid.version}</version>
+        </dependency>
+
+        <!-- Junit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${dependency.junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- Servlet -->
+<!--        <dependency>-->
+<!--            <groupId>javax.servlet</groupId>-->
+<!--            <artifactId>javax.servlet-api</artifactId>-->
+<!--            <version>${dependency.javax.servlet-api.version}</version>-->
+<!--            <scope>provided</scope>-->
+<!--        </dependency>-->
+
+        <!-- 文件上传插件 -->
+        <dependency>
+            <groupId>commons-fileupload</groupId>
+            <artifactId>commons-fileupload</artifactId>
+            <version>${dependency.commons-fileupload.version}</version>
+        </dependency>
+
+        <!-- log4j -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>${dependency.log4j.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>${dependency.log4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-jcl</artifactId>
+            <version>${dependency.log4j.version}</version>
+        </dependency>
+
+        <!--添加logback-classic依赖-->
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>${dependency.logback.version}</version>
+        </dependency>
+
+        <!--添加logback-core依赖-->
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-core</artifactId>
+            <version>${dependency.logback.version}</version>
+        </dependency>
+
+        <!-- LoggerUtils -->
+        <dependency>
+            <groupId>com.D</groupId>
+            <artifactId>MyUtils</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-api</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+
+
+        <!-- kaptcha 验证码工具-->
+        <dependency>
+            <groupId>com.github.penggle</groupId>
+            <artifactId>kaptcha</artifactId>
+            <version>${dependency.kaptcha.version}</version>
+        </dependency>
+    </dependencies>
+
+    <!-- 控制配置maven构建项目的参数设置，设置jdk版本 -->
+    <build>
+        <!-- 配置插件 -->
+        <plugins>
+            <!-- 配置具体插件 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <!-- 插件的名称 -->
+                <artifactId>maven-compiler-plugin</artifactId>
+                <!-- 插件的版本 -->
+                <version>3.8.1</version>
+                <!-- 配置插件的信息 -->
+                <configuration>
+                    <!-- 告诉maven，项目是在jdk1.8上编译的 -->
+                    <source>1.8</source>
+                    <!-- 程序应该运行在jdk1.8上 -->
+                    <target>1.8</target>
+                    <!--使反射可以获取到方法形参的参数名-->
+                    <parameters>true</parameters>
+                </configuration>
+            </plugin>
+        </plugins>
+
+<!--        <resources>-->
+<!--            <resource>-->
+                <!--配置资源文件所在的目录，
+                    目录下的资源文件可以通过 ${自定义属性名} 来引用父模块 pom 文件中的自定义属性配置值，
+                    ${project.basedir} 表示所有模块的工程根目录，
+                    本项目有 4 个模块：ssm_domain，ssm_dao，ssm_service，ssm_controller，
+                    所以下面的配置，代表这 4 个模块的 resources 目录路径
+                    -->
+<!--                <directory>${project.basedir}/src/main/resources</directory>-->
+                <!--启用对所配置的资源目录中下所有资源文件的管理功能，
+                    这样资源文件中就可以通过 ${自定义属性名} 来引用父模块 pom 文件中的自定义属性配置值-->
+<!--                <filtering>true</filtering>-->
+<!--            </resource>-->
+<!--        </resources>-->
+    </build>
+
+    <!--为了方便不同环境下，使用不同的配置，所以定义环境并编写配置-->
+    <profiles>
+        <!--定义开发环境-->
+        <profile>
+            <!--在 maven 中运行 install -P dev 命令，即可生成和安装开发环境的包-->
+            <id>dev</id>
+            <!--定义开发环境的自定义属性，配置 mysql 和 reids 的配置信息-->
+            <properties>
+                <!--在父模块的属性中，配置 MySql 数据库连接信息-->
+                <db.url>jdbc:mysql://127.0.0.1:1103/testdb?useSSL=false</db.url>
+                <db.username>root</db.username>
+                <db.password>123456</db.password>
+                <pool.initialSize>3</pool.initialSize>
+                <pool.maxActive>20</pool.maxActive>
+                <pool.maxWait>3000</pool.maxWait>
+
+                <!--在父模块的属性中，配置 Redis 连接信息-->
+                <!--                <redis.host>127.0.0.1</redis.host>-->
+                <!--                <redis.port>6379</redis.port>-->
+                <!--                <redis.maxActive>10</redis.maxActive>-->
+                <!--                <redis.maxIdle>5</redis.maxIdle>-->
+                <!--                <redis.minIdle>1</redis.minIdle>-->
+                <!--                <redis.maxWait>3000</redis.maxWait>-->
+            </properties>
+
+            <!--使用该项配置，可以配置点击右侧 maven 的 install 命令时，默认使用的环境
+                因为该项目配置是在开发环境中配置的，因此默认使用开发环境的配置
+                -->
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+
+        <!--线上环境-->
+        <profile>
+            <!--在 maven 中运行 install -P mytest 命令，即可生成和安装测试环境的包-->
+            <id>TencentOS</id>
+            <properties>
+                <!--在父模块的属性中，配置 MySql 数据库连接信息-->
+                <db.url>jdbc:mysql://localhost:1103/testdb?useSSL=false</db.url>
+                <db.username>self</db.username>
+                <db.password>zxcvbnmD_P123456</db.password>
+                <pool.initialSize>3</pool.initialSize>
+                <pool.maxActive>20</pool.maxActive>
+                <pool.maxWait>3000</pool.maxWait>
+
+                <!--在父模块的属性中，配置 Redis 连接信息-->
+<!--                <redis.host>localhost</redis.host>-->
+<!--                <redis.port>6379</redis.port>-->
+<!--                <redis.maxActive>10</redis.maxActive>-->
+<!--                <redis.maxIdle>5</redis.maxIdle>-->
+<!--                <redis.minIdle>1</redis.minIdle>-->
+<!--                <redis.maxWait>3000</redis.maxWait>-->
+            </properties>
+        </profile>
+    </profiles>
+</project>

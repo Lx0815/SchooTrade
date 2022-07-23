@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.D.school_trade.dao.UserMapper">
+
+    <resultMap id="userMap" type="com.D.school_trade.pojo.User">
+        <result property="id" column="pk_id"/>
+        <result property="avatar" column="avatar"/>
+        <result property="nickName" column="nick_name"/>
+        <result property="gender" column="gender"/>
+        <result property="createTime" column="create_time"
+                javaType="java.time.LocalDateTime" jdbcType="TIMESTAMP"/>
+        <result property="updateTime" column="update_time"
+                javaType="java.time.LocalDateTime" jdbcType="TIMESTAMP"/>
+    </resultMap>
+    <select id="selectById" resultMap="userMap">
+        SELECT pk_id, avatar, nick_name, gender, create_time, update_time
+        FROM school_trade.user
+        WHERE pk_id = #{id}
+    </select>
+
+
+</mapper>
